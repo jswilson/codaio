@@ -27,6 +27,6 @@ sphinx = "^2.2"
 sphinx_rtd_theme = "^0.4.3"
 
 [build-system]
-requires = ["poetry"]
+requires = ["poetry", "rapidfuzz==3.14.3"]
 build-backend = "poetry.masonry.api"
 
